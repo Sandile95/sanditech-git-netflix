@@ -13,14 +13,17 @@
 </head>
 
 <body>
-    <div class="test">Tablet mode</div>
+
     <div class="banner-wrap">
 
         <div class="overlay"></div>
         <!-- Navbar Items -->
         <div class="navbar">
-            <img src="./assets/logo.png" alt="Netflix logo">
-            <a href="https://www.netflix.com/login">Sign In</a>
+            <a href="./index.html">
+                <img src="./assets/logo.png" alt="Netflix logo">
+            </a>
+
+            <a href="https://www.netflix.com/login" class="sign-in">Sign In</a>
         </div>
 
         <!-- Banner container -->
@@ -33,7 +36,10 @@
                 <h3 class="email-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
                 <div class="get-started-form">
                     <input type="text" placeholder="Email address">
-                    <button type="button">Get Started ></button>
+                    <button type="button">Get Started <span class="material-icons">
+                            arrow_forward_ios
+                        </span></button>
+
                 </div>
 
             </form>
@@ -58,10 +64,75 @@
 
     </div>
 
+    <!-- Second Info Container -->
+    <div class="info-container">
+
+        <div class="info-container-content">
+            <div class="img1">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                    alt="">
+            </div>
+
+            <div class="info-container-items">
+                <div class="image-content">
+                    <div>
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                            alt="">
+                    </div>
+
+                    <div class="info-items">
+                        <h4>Stranger Things</h4>
+                        <h5>Downloading...</h5>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                        alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="info">
+            <h1 class="card-title">Download your shows to watch offline</h1>
+            <p class="card-subtitle">Save your favorites easily and always have something to watch.</p>
+        </div>
+
+    </div>
+
+    <!-- Third info-container -->
+    <div class="info-container">
+        <div class="info">
+            <h1 class="card-title">Watch everywhere</h1>
+            <p class="card-subtitle">Stream unlimited movies and TV shows on your phone,tablet,laptop,and TV</p>
+        </div>
+
+    </div>
+
+    <!-- 4th info-container -->
+    <div class="info-container">
+
+        <div class="tv-container">
+            <img src="https://occ-0-3173-32.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
+                alt="">
+
+        </div>
+
+        <div class="info">
+            <h1 class="card-title">Create profiles for kids</h1>
+            <p class="card-subtitle">Send kids on adventures with their favorite characters in a space made just for
+                them—free with your membership.</p>
+        </div>
+
+
+    </div>
+
     <div class="footer">
         <div class="footer-items">
             <div class="footer-top">
-                <a href="" class="questions-title">Questions? Call 0 801-000-723</a>
+                <a href="" class="questions-title"><span>Questions? Call</span> 0
+                    801-000-723</a>
             </div>
 
             <ul class="footer-links">
